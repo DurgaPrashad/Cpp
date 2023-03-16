@@ -1,10 +1,8 @@
 #include<iostream>
 
-
-
 using namespace std;
 
-string arr1[20],arr2[20],arr3[20],arr4[20],arr5[20];
+string arr1[50],arr2[50],arr3[50],arr4[50],arr5[50];
 
 int total=0;
 
@@ -389,14 +387,13 @@ main()
 		case 3:
 
 			search();
-
 			break;
 
 		case 4:
 
 			update();
 
-			break;
+		break;
 
 		case 5:
 
@@ -419,17 +416,5 @@ main()
 	}
 
 }
-string data;
-   int ifstreaminfile;
-   int infile.open("data.txt");
 
-   if (infile.is_open()) {
-      getline(infile, data);
-      cout << "Data retrieved from file: " << data << endl;
-      infile.close();
-   } else {
-      cout << "Error opening file.\n";
-   }
-
-   return 0;
 }
